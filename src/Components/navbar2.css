@@ -1,0 +1,26 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(241, 226, 88) ;
+}
+.nav p{
+    margin-top: 0.2rem!important;
+    display:inline;
+    color:black;
+    text-align: center;
+    padding: 5px;
+    font-size:20px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.nav p:hover{
+    font-weight: bolder;
+    color:rgb(255, 0, 0);
+}
+.active{
+    padding: 5px;
+    font-weight: bolder;
+    background-color: blue;
+    color:white;
+}
